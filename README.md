@@ -18,7 +18,6 @@ Key components include:
 
 The system is trained and evaluated on the **Flickr30k dataset**.
 
----
 
 ##  Objectives
 
@@ -28,7 +27,6 @@ The system is trained and evaluated on the **Flickr30k dataset**.
 * Improve caption quality using **pretrained word embeddings**
 * Analyze training behavior and generated captions
 
----
 
 ##  Dataset
 
@@ -40,7 +38,6 @@ The system is trained and evaluated on the **Flickr30k dataset**.
 
 Each image is associated with multiple human-written descriptions capturing different perspectives.
 
----
 
 ## Model Architecture
 
@@ -67,7 +64,6 @@ Each image is associated with multiple human-written descriptions capturing diff
   * Previous hidden state (512)
 * Output vocabulary size: **20,273 words**
 
----
 
 ## Training Setup
 
@@ -79,7 +75,6 @@ Each image is associated with multiple human-written descriptions capturing diff
 * **Teacher forcing** during training
 * **Monitoring:** TensorBoard + sample caption generation
 
----
 
 ## Results
 
@@ -105,17 +100,8 @@ Each image is associated with multiple human-written descriptions capturing diff
 ✔ Correct action and object
 ✖ Simplified details
 
----
+<img width="1391" height="476" alt="image" src="https://github.com/user-attachments/assets/259194ad-044c-483b-ae1a-3bfa5d8d73fa" />
 
-##  Applications
-
-* Assistive technologies for visually impaired users
-* Image indexing and semantic search
-* Social media caption generation
-* Medical image reporting support
-* Intelligent surveillance systems
-
----
 
 ## References
 
